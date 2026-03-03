@@ -19,3 +19,6 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Datasets / local data (do not upload big files)
+week01/day01_text_analysis/data/
