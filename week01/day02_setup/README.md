@@ -15,6 +15,17 @@
   - `pytest tests/test_extract.py` ✅ (2 passed)
 - Ran the notebook section **1. Extract** successfully.
 
+## Evidence
+- Dataset placed locally under `assignment/dataset/` (not committed).
+- `pytest tests/test_extract.py -q` ✅ (2 passed)
+- Notebook `AnyoneAI - Sprint Project 01.ipynb` section **1. Extract** executed successfully.
+
+## Expected project structure (Sprint Project 01)
+- `dataset/` (local only)
+- `src/` (extract, load, transform)
+- `queries/` (SQL files)
+- `tests/` (pytest)
+
 ## Notes / Troubleshooting
 - Python 3.14 caused issues installing pandas/matplotlib. Switching to Python 3.10 solved it.
 - Jupyter may cache old code; restarting the kernel reloads updated modules.
